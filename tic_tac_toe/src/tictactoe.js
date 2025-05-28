@@ -39,7 +39,8 @@ export function setupTicTacToe(container) {
     for (let i = 0; i < 9; ++i) {
       const cell = document.createElement('button');
       cell.className = 'ttt-cell';
-      cell.textContent = board[i] ? board[i] : '';
+      // Improved: Use a span for better centering/scalability
+      cell.innerHTML = board[i] ? `<span>${board[i]}</span>` : '';
       cell.disabled = board[i] || status !== 'ongoing';
       cell.setAttribute('data-idx', i);
       boardEl.appendChild(cell);

@@ -8,3 +8,4 @@
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
 6:37:58 PM [vite] (client) hmr update /src/style.css
+6:38:02 PM [vite] (client) page reload src/tictactoe.js
