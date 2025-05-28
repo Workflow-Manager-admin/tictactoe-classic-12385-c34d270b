@@ -7,3 +7,6 @@
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+6:35:43 PM [vite] vite.config.js changed, restarting server...
+6:35:44 PM [vite] server restarted.
+6:36:04 PM [vite] (client) hmr update /src/style.css

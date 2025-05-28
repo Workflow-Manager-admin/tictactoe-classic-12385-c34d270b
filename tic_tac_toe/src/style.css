@@ -3,9 +3,14 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* TicTacToe Classic Theme Colors */
+  --ttt-primary: #ffffff;
+  --ttt-secondary: #222222;
+  --ttt-accent: #4caf50;
+
+  color-scheme: light;
+  color: var(--ttt-secondary);
+  background-color: var(--ttt-primary);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
